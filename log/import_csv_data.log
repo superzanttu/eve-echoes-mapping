@@ -1,0 +1,13 @@
+2020-10-04 12:47:31,133 DEBUG import_csv_data.py init_logging ===================================================================
+2020-10-04 12:47:31,133 INFO import_csv_data.py init_logging Logging started
+2020-10-04 12:47:31,133 DEBUG import_csv_data.py main START
+2020-10-04 12:47:31,133 INFO import_csv_data.py init_db Initializing database
+2020-10-04 12:47:31,133 INFO import_csv_data.py open_db Using database file db/ee_map.db
+2020-10-04 12:47:31,134 DEBUG import_csv_data.py init_db Dropping old tables
+2020-10-04 12:47:31,139 DEBUG import_csv_data.py init_db Create table SYSTEMS using CREATE TABLE systems(sid INTEGER NOT NULL PRIMARY KEY, region TEXT, constellation TEXT, name TEXT, security REAL)
+2020-10-04 12:47:31,140 DEBUG import_csv_data.py init_db Create table NEIGHBORS using CREATE TABLE neighbors(sid INTEGER NOT NULL PRIMARY KEY, nid INTEGER, s_security REAL)
+2020-10-04 12:47:31,141 DEBUG import_csv_data.py init_db Create table SYSTEMPLANETS using CREATE TABLE systemplanets(sid INTEGER NOT NULL PRIMARY KEY,pid INTEGER)
+2020-10-04 12:47:31,142 DEBUG import_csv_data.py init_db Create table PLANETS using CREATE TABLE systemplanets(sid INTEGER NOT NULL PRIMARY KEY,pid INTEGER)
+2020-10-04 12:47:31,143 DEBUG import_csv_data.py close_db Database closed
+2020-10-04 12:47:31,143 INFO import_csv_data.py init_db Database initialized
+2020-10-04 12:47:31,143 INFO import_csv_data.py import_systems Importing data

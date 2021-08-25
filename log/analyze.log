@@ -1,0 +1,50 @@
+2020-10-24 08:37:45,951 DEBUG analyze.py init_logging 
+
+
+===================================================================
+2020-10-24 08:37:45,951 DEBUG analyze.py init_logging Logging started
+2020-10-24 08:37:45,951 INFO analyze.py main START
+2020-10-24 08:37:45,951 INFO analyze.py load_map Loading map
+2020-10-24 08:37:45,951 INFO analyze.py open_db Using database file db/ee_map.db
+2020-10-24 08:37:45,952 DEBUG analyze.py load_map Using NetworkX <class 'networkx.classes.multidigraph.MultiDiGraph'>
+2020-10-24 08:37:45,952 DEBUG analyze.py read_map_cache Looking for standard map cache file
+2020-10-24 08:37:45,952 INFO analyze.py read_map_cache Reading Pickled map data from cache/ee_map_cache_standard.gpickle
+2020-10-24 08:37:46,080 DEBUG analyze.py read_map_cache Loaded 4512 systems from standard cache map file
+2020-10-24 08:37:46,081 INFO analyze.py load_map Map loaded
+2020-10-24 08:37:46,081 INFO analyze.py add_production_weight_for_edges Adding planetary production data for edges
+2020-10-24 08:37:46,081 DEBUG analyze.py get_planetary_production Planet 40000002 have production level 3.55 for mineral Base Metals
+2020-10-24 08:37:46,081 DEBUG analyze.py get_planetary_production Planet 40000002 have production level 9.9 for mineral Condensates
+2020-10-24 08:37:46,081 DEBUG analyze.py get_planetary_production Planet 40000002 have production level 154.2 for mineral Heavy Water
+2020-10-24 08:37:46,081 DEBUG analyze.py get_planetary_production Planet 40000005 have production level 16.16 for mineral Fiber Composite
+2020-10-24 08:37:46,081 DEBUG analyze.py get_planetary_production Planet 40000005 have production level 115.68 for mineral Heavy Water
+2020-10-24 08:37:46,081 DEBUG analyze.py get_planetary_production Planet 40000005 have production level 15.22 for mineral Smartfab Units
+2020-10-24 08:37:46,081 DEBUG analyze.py get_planetary_production Planet 40000007 have production level 3.25 for mineral Base Metals
+2020-10-24 08:37:46,081 DEBUG analyze.py get_planetary_production Planet 40000007 have production level 10.97 for mineral Lustering Alloy
+2020-10-24 08:37:46,081 DEBUG analyze.py get_planetary_production Planet 40000008 have production level 13.56 for mineral Coolant
+2020-10-24 08:37:46,081 DEBUG analyze.py get_planetary_production Planet 40000008 have production level 158.28 for mineral Heavy Water
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000008 have production level 4.87 for mineral Toxic Metals
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000011 have production level 4.52 for mineral Base Metals
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000011 have production level 10.04 for mineral Lustering Alloy
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000011 have production level 14.46 for mineral Noble Gas
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000017 have production level 131.16 for mineral Heavy Water
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000017 have production level 17.05 for mineral Opulent Compound
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000017 have production level 5.38 for mineral Silicate Glass
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000041 have production level 2.67 for mineral Base Metals
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000041 have production level 14.44 for mineral Lustering Alloy
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000043 have production level 133.2 for mineral Heavy Water
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000043 have production level 9.86 for mineral Silicate Glass
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000043 have production level 4.53 for mineral Toxic Metals
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000046 have production level 3.52 for mineral Base Metals
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000046 have production level 13.62 for mineral Lustering Alloy
+2020-10-24 08:37:46,082 DEBUG analyze.py get_planetary_production Planet 40000046 have production level 16.48 for mineral Sheen Compound
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000055 have production level 4.92 for mineral Base Metals
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000055 have production level 19.84 for mineral Lustering Alloy
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000055 have production level 13.69 for mineral Sheen Compound
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000074 have production level 3.08 for mineral Base Metals
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000074 have production level 10.56 for mineral Lustering Alloy
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000074 have production level 14.63 for mineral Sheen Compound
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000100 have production level 3.27 for mineral Base Metals
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000100 have production level 10.68 for mineral Fiber Composite
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000100 have production level 12.46 for mineral Lustering Alloy
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000123 have production level 2.48 for mineral Base Metals
+2020-10-24 08:37:46,083 DEBUG analyze.py get_planetary_production Planet 40000123 have production level 14.04 for mineral Lustering Alloy
